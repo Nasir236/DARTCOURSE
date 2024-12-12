@@ -8,7 +8,7 @@ void main() {
     'Address': null,
     'contact': null,
     'hobby': 'Cooking',
-    'Relationship': null
+    'Relationship': 'Unmarried',
   };
 
   employee.removeWhere((key, value) => value == null || key == 'contact');
